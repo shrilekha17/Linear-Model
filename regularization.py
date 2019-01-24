@@ -13,4 +13,3 @@ p4 = np.poly1d(np.polyfit(x, y, 4))
 plt.plot(x, y, '.', xp, p(xp), '-', xp, p4(xp), '--')
 plt.ylim(-3,3)
 
-Z = 
